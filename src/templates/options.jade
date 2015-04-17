@@ -1,0 +1,24 @@
+html
+  head
+    title Tab Limiter Options
+    style.
+      body {
+        width: 145px;
+        height: 30px;
+      }
+      #tabLimitLabel {
+        float: left;
+        padding-top: 3px;
+        font-size: 18px;
+        margin-right: 8px
+      }  
+      #tabLimitInput {
+        width: 50px;
+        float: left;
+        font-size: 18px;
+        padding-left: 5px;
+      }
+    script(src="options.js")
+  body
+    label#tabLimitLabel Tab Limit:
+    input#tabLimitInput(type="text")
