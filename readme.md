@@ -14,4 +14,4 @@ Simple tab limiting extension for Google Chrome.
 
 # License
 
-MIT
+MIT © Forrest Desjardins
